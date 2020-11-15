@@ -1,0 +1,38 @@
+
+@media(min-width: 600px){
+  img {
+    display: inline-block;
+  position: relative;
+  width: 20%;
+  height: auto;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+li {
+  list-style-type: none;
+  display: flex;
+
+}
+
+}
+
+
+@media(max-width: 600px){
+  body {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  img {
+    width: 25%; 
+     height: auto;
+     border-radius: 50%;
+
+  }
+  li {
+    list-style-type: none;
+    display: flex;
+  
+  }
+  }
